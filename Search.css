@@ -1,0 +1,133 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e2b6ca;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+  }
+  
+  header p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Search Section */
+  .search-section {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #search-bar {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Filter Section */
+  .filter-section {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .filters select,
+  .apply-filters {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .apply-filters {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .apply-filters:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Results Section */
+  .results-section {
+    margin-top: 20px;
+  }
+  
+  .results-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+  }
+  
+  .result-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .result-item h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .result-item p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #28a745;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
