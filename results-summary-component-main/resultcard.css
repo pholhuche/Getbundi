@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    height: 100vh;
   }
 
   body{
@@ -99,4 +100,19 @@
     text-align: center;
     padding: 20px;
     
+}
+
+.component-left>h2{
+  color: hsl(0, 0%, 100%);
+  font-size: 28px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.component-left>p{
+  color: hsl(241, 100%, 89%);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px 20px 10px 20px;
+  text-align: center0;
 }
